@@ -512,7 +512,7 @@ input:where([type="text"], [type="email"], ) {
 
 @media (min-width: 50em) {
   .slider > * {
-    width: 35%;
+    width: 31.75%;
   }
 }
 
