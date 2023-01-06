@@ -7,8 +7,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        raspberryPiProject: resolve(__dirname, 'project.html'),
-        sudokuSolver: resolve(__dirname, 'sudoku.html'),
+        raspberry_pi_project: resolve(__dirname, 'project.html'),
+        sudoku_solver: resolve(__dirname, 'sudoku.html'),
       },
     },
   },

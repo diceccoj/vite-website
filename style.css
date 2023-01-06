@@ -545,7 +545,7 @@ input:where([type="text"], [type="email"], ) {
 .a11y-slider-dots li button {
   display: block;
   font-size: 0;
-  text-indent: -9999px;
+  text-indent: 0px;
   background: transparent;
   border: 1px solid var(--clr-accent-400) !important;
   width: 100%;
