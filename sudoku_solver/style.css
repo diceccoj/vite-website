@@ -319,6 +319,7 @@ p[data-width="wide"] {
 
   display: grid;
   align-content: space-between;
+  vertical-align: text-bottom;
 }
 
 .primary-footer form {
@@ -353,7 +354,7 @@ input:where([type="text"], [type="email"], ) {
 /* footer navigation */
 
 .footer-nav {
-  columns: 2;
+  columns: 3;
   gap: clamp(var(--size-200), 30vw, var(--size-900));
 }
 

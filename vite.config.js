@@ -11,6 +11,7 @@ export default defineConfig({
         sudoku_solver: resolve(__dirname, 'sudoku_solver','index.html'),
         billing_system: resolve(__dirname, 'billing_system','index.html'),
         cpu_fetcher: resolve(__dirname, 'cpu_fetcher','index.html'),
+        tetris: resolve(__dirname, 'tetris','index.html'),
       },
     },
   },
