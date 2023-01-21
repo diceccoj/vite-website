@@ -354,7 +354,7 @@ input:where([type="text"], [type="email"], ) {
 /* footer navigation */
 
 .footer-nav {
-  columns: 3;
+  columns: 2;
   gap: clamp(var(--size-200), 30vw, var(--size-900));
 }
 
