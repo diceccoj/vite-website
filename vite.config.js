@@ -12,6 +12,7 @@ export default defineConfig({
         billing_system: resolve(__dirname, 'billing_system','index.html'),
         cpu_fetcher: resolve(__dirname, 'cpu_fetcher','index.html'),
         tetris: resolve(__dirname, 'tetris','index.html'),
+        initial_startpage: resolve(__dirname, 'initial_startpage','index.html'),
       },
     },
   },
