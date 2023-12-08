@@ -10,8 +10,8 @@
   
   <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
   <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js" defer></script>
-  <script type="module" crossorigin src="/vite-website/assets/main.f082cbfa.js"></script>
-  <link rel="stylesheet" href="/vite-website/assets/index.15f866a2.css">
+  <script type="module" crossorigin src="/vite-website/assets/on_scroll_event.78ba3cde.js"></script>
+  <link rel="stylesheet" href="/vite-website/assets/on_scroll_event.1e4d7109.css">
 </head>
   <body>
     <!--header (logo) and top buttons-->
@@ -19,7 +19,7 @@
       <section class="hero | padding-block-700 text-centre-sm-only">
         <div class="container">
           <div>
-            <button class="button">
+            <button class="button | left">
               <a href="/vite-website/" style="text-decoration: none; color: inherit">
                 &larr; Back to Home
               </a>
@@ -28,7 +28,7 @@
       </section>
 
       <section class="hero text-center padding-block-700">
-        <h2 class="fs-secondary-heading fw-bold">CPU Info Fetcher</h2>
+        <h2 class="fs-secondary-heading fw-bold | fade-in">CPU Info Fetcher</h2>
       </section>
 
 
@@ -36,7 +36,7 @@
         <section class="hero | padding-block-700 text-centre-sm-only">
           <div class="container | even-columns">
             <center>
-              <div class="text-center slider-content | padding-block-700" style="max-width: 85%;">
+              <div class="left | text-center slider-content | padding-block-700" style="max-width: 85%;">
                   <h2>
                     This is a program for Linux computers that returns certain CPU information to
                     the user depending on the input. This program uses a bash script that sends the user
@@ -45,7 +45,7 @@
                   </h2>
               </div>
             </center>
-            <center>
+            <center class="right">
               <img src="/vite-website/assets/cpu_large.3a5dddca.png" alt="">
             </center>
           </div>
@@ -56,12 +56,12 @@
             <div>
               <div class="flow">
                 <center>
-                  <video width="75%" height="50%" controls>
+                  <video width="75%" class="fade-in" height="50%" controls>
                     <source src="/vite-website/assets/cpufetch.f649ef31.mp4" type="video/mp4">
                   </video>
+                  <div class="hero__image">
+                  </div>
                 </center>
-              </div>
-              <div class="hero__image">
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@
         <section class="hero | padding-block-700 text-centre-sm-only">
           <div align="right" class="container">
             <div>
-              <button class="button">
+              <button class="right | button">
                 <a href="https://github.com/diceccoj/cpu_info_fetch" style="text-decoration: none; color: inherit">
                   Source Code on Github &rarr;
                 </a>
@@ -110,6 +110,7 @@
 
 
     </header>
+    
     
   </body>
 </html>

@@ -10,8 +10,8 @@
   
   <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
   <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js" defer></script>
-  <script type="module" crossorigin src="/vite-website/assets/main.f082cbfa.js"></script>
-  <link rel="stylesheet" href="/vite-website/assets/index.15f866a2.css">
+  <script type="module" crossorigin src="/vite-website/assets/on_scroll_event.78ba3cde.js"></script>
+  <link rel="stylesheet" href="/vite-website/assets/on_scroll_event.1e4d7109.css">
 </head>
   <body>
     <!--header (logo) and top buttons-->
@@ -19,7 +19,7 @@
       <section class="hero | padding-block-700 text-centre-sm-only">
         <div class="container">
           <div>
-            <button class="button">
+            <button class="button | left">
               <a href="/vite-website/" style="text-decoration: none; color: inherit">
                 &larr; Back to Home
               </a>
@@ -28,7 +28,7 @@
       </section>
 
       <section class="hero text-center padding-block-700">
-        <h2 class="fs-secondary-heading fw-bold">Muscle Sensor Controller</h2>
+        <h2 class="fs-secondary-heading fw-bold | fade-in">Muscle Sensor Controller</h2>
       </section>
 
 
@@ -38,7 +38,7 @@
             <center>
               <div class="even-columns vertical-align-center">
                 <center>
-                <div class="text-center slider-content | padding-block-700" style="max-width: 85%;">
+                <div class="left | text-center slider-content | padding-block-700" style="max-width: 85%;">
                     <h2>
                       This project required my group to allow a device to dispose of surgical equipment into
                     sanitation containers using two muscle sensors, where I was tasked with coding the
@@ -46,9 +46,11 @@
                     while the program itself was running using my Raspberry Pi.
                     </h2>
                 </div>
-                </center>
+               </center>
                 <center>
-                <img src="/vite-website/assets/autoclave.a2354969.png" alt="" height="200px" width="200px">
+                <img src="/vite-website/assets/autoclave.a2354969.png" class="right" alt="" height="200px" width="200px">
+                <div class="hero__image">
+                </div>
                 </center>
               </div>
               </div>
@@ -57,16 +59,14 @@
         </section>
 
         <section class="hero | padding-block-700 text-centre-sm-only">
-          <div class="container">
+          <div class="container | fade-in">
             <div>
-              <div class="flow">
+              <div>
                 <center>
                   <video width="75%" height="50%" controls>
                     <source src="/vite-website/assets/arm_video.5e004065.mp4" type="video/mp4">
                   </video>
                 </center>
-              </div>
-              <div class="hero__image">
               </div>
             </div>
           </div>
@@ -75,7 +75,7 @@
         <section class="hero | padding-block-700 text-centre-sm-only">
           <div align="right" class="container">
             <div>
-              <button class="button">
+              <button class="button | right">
                 <a href="https://github.com/diceccoj/Raspberry-Pi-Autoclave-Arm" style="text-decoration: none; color: inherit">
                   Source Code on Github &rarr;
                 </a>
@@ -115,6 +115,7 @@
 
 
     </header>
+    
     
   </body>
 </html>

@@ -10,8 +10,8 @@
   
   <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
   <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js" defer></script>
-  <script type="module" crossorigin src="/vite-website/assets/main.f082cbfa.js"></script>
-  <link rel="stylesheet" href="/vite-website/assets/index.15f866a2.css">
+  <script type="module" crossorigin src="/vite-website/assets/on_scroll_event.78ba3cde.js"></script>
+  <link rel="stylesheet" href="/vite-website/assets/on_scroll_event.1e4d7109.css">
 </head>
   <body>
     <!--header (logo) and top buttons-->
@@ -19,7 +19,7 @@
       <section class="hero | padding-block-700 text-centre-sm-only">
         <div class="container">
           <div>
-            <button class="button">
+            <button class="button | left">
               <a href="/vite-website/" style="text-decoration: none; color: inherit">
                 &larr; Back to Home
               </a>
@@ -27,7 +27,7 @@
         </div>
       </section>
 
-      <section class="hero text-center padding-block-700">
+      <section class="hero text-center padding-block-700 | fade-in">
         <h2 class="fs-secondary-heading fw-bold">Tetris in Unity</h2>
       </section>
 
@@ -37,7 +37,7 @@
         <section class="hero | padding-block-700 text-centre-sm-only">
           <div class="container | even-columns">
             <center>
-              <div class="text-center slider-content | padding-block-900" style="max-width:85%;">
+              <div class="left | text-center slider-content | padding-block-900" style="max-width:85%;">
                 <h2>
                   This is a clone of Tetris made in C# using Unity. It also includes features such as 
                   progressive fall speed, ghost projections and a scoreboard. I also created a start menu 
@@ -50,7 +50,7 @@
                 </h2>
               </div>
             </center>
-            <center>
+            <center class="right">
               <img src="/vite-website/assets/tetris_home_screen.fa669507.png" alt="">
             </center>
           </div>
@@ -59,7 +59,7 @@
         <section class="hero | padding-block-700 text-centre-sm-only">
           <div class="container">
             <div>
-              <div class="flow">
+              <div class="fade-in">
                 <center>
                   <video width="75%" height="50%" controls>
                     <source src="/vite-website/assets/tetris.6e718458.mp4" type="video/mp4">
@@ -75,7 +75,7 @@
         <section class="hero | padding-block-700 text-centre-sm-only">
           <div class="container">
             <center>
-              <div class="slider-content " style=" text-align: left; max-width:85%;">
+              <div class="slider-content | fade-in" style=" text-align: left; max-width:85%;">
                 <h2>
                   *Material textures are not mine. Credits can be found in the Github page <br>
                   *Due to file limit sizes, only the 'Assets' Folder can be found on the Github page
@@ -88,7 +88,7 @@
         <section class="hero | padding-block-700 text-centre-sm-only">
           <div align="right" class="container">
             <div>
-              <button class="button">
+              <button class="button | right">
                 <a href="https://github.com/diceccoj/tetris_unity" style="text-decoration: none; color: inherit">
                   Source Code on Github &rarr;
                 </a>
@@ -128,6 +128,7 @@
 
 
     </header>
+    
     
   </body>
 </html>
