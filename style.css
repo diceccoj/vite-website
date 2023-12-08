@@ -79,6 +79,7 @@ html{
   position: absolute;
   background-image: url('images/bg-tablet-pattern.svg');
   background-position: bottom left;
+  background-size: cover;
 }
 
 @media(min-width: 50em) {
@@ -728,3 +729,91 @@ input:where([type="text"], [type="email"], ) {
 .subpage-title {
   padding-bottom: var(--size-900);
 }
+
+
+
+
+
+
+
+/*Animations*/
+@keyframes animFadeFromLeft {
+  0% {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+}
+
+@keyframes animFadeFromRight {
+  0% {
+    transform: translateX(10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+}
+
+@keyframes topIMG {
+  0% {
+    transform: translateX(10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+}
+
+@media(min-width: 50em) {
+  @keyframes topIMG {
+    0% {
+      transform: translateX(10%) scale(1.5);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0%) scale(1.5);
+      opacity: 1;
+    }
+  
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    transform: translateY(10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0%);
+    opacity: 1;
+  }
+}
+
+.fade-from-left {
+  animation: animFadeFromLeft 1s ease-in-out forwards; 
+}
+.fade-from-right {
+  animation: animFadeFromRight 1s ease-in-out forwards; 
+}
+.top_img {
+  animation: topIMG 1s ease-in-out forwards; 
+  margin-top: 10%;
+}
+.fade-in-anim {
+  animation: fadeIn 1s ease-in-out forwards; 
+}
+
+.left, .right, .top_image, .fade-in {
+  opacity: 0;
+}
+
+

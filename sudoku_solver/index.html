@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
   <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js" defer></script>
 </head>
@@ -17,7 +17,7 @@
       <section class="hero | padding-block-700 text-centre-sm-only">
         <div class="container">
           <div>
-            <button class="button">
+            <button class="left | button">
               <a href="/vite-website/" style="text-decoration: none; color: inherit">
                 &larr; Back to Home
               </a>
@@ -26,7 +26,7 @@
       </section>
 
       <section class="hero text-center padding-block-700">
-        <h2 class="fs-secondary-heading fw-bold">Sudoku Solver</h2>
+        <h2 class="fade-in | fs-secondary-heading fw-bold">Sudoku Solver</h2>
       </section>
 
       
@@ -37,7 +37,7 @@
             <center>
               <div class="even-columns vertical-align-center">
                 <center>
-                <div class="text-center slider-content | padding-block-700" style="max-width: 85%;">
+                <div class="left | text-center slider-content | padding-block-700" style="max-width: 85%;">
                     <h2>
                       The following video showcases a Python program I made that solves sudoku
                   puzzles efficiently with backtracking. It solves a board by pushing a number in each block
@@ -47,7 +47,7 @@
                 </div>
                 </center>
                 <center>
-                <img src="images/sudoku.png" alt="" height="200px" width="200px">
+                <img src="images/sudoku.png" class="right" alt="" height="200px" width="200px">
                 </center>
               </div>
               </div>
@@ -60,12 +60,12 @@
             <div>
               <div class="flow">
                 <center>
-                  <video width="75%" height="50%" controls>
+                  <video class="fade-in" width="75%" height="50%" controls>
                     <source src="images/sudoku.mp4" type="video/mp4">
                   </video>
+                  <div class="hero__image">
+                  </div>
                 </center>
-              </div>
-              <div class="hero__image">
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@
         <section class="hero | padding-block-700 text-centre-sm-only">
           <div class="container">
             <center>
-              <div class="slider-content | padding-block-700" style=" text-align: left; max-width:85%">
+              <div class="fade-in | slider-content | padding-block-700" style=" text-align: left; max-width:85%">
                 <h2>
                   Rules for sudoku: <br>
                   - Every entry in a 3x3 square must have a unique number from 1-9 <br>
@@ -91,7 +91,7 @@
         <section class="hero | padding-block-700 text-centre-sm-only">
           <div align="right" class="container">
             <div>
-              <button class="button">
+              <button class="button | right">
                 <a href="https://github.com/diceccoj/Sudoku-Solver" style="text-decoration: none; color: inherit">
                   Source Code on Github &rarr;
                 </a>
@@ -135,6 +135,7 @@
 
 
     </header>
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="../main.js"></script>
+    <script type="module" src="../on_scroll_event.js"></script>
   </body>
 </html>

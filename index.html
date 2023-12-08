@@ -17,13 +17,11 @@
       <div class="container">
         <div class="nav-wrapper">
           <a>
-            <h2 class="fs-secondary-heading fw-bold">Jonathan DiCecco</h2></a>
+            <h2 class="fs-secondary-heading fw-bold | fade-in">Jonathan DiCecco</h2></a>
         <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false"></button>
         <nav class="primary-navigation" id="primary-navigation">
           <!--class="flow"-->
-          <ul style="--flow-spacer: 1em" style="--flow-spacer: 1em" aria-label="primary" role="list" class="nav-list">
-            
-          </ul> 
+          <ul style="--flow-spacer: 1em" style="--flow-spacer: 1em" aria-label="primary" role="list" class="nav-list"></ul> 
         </nav>
         </div>
       </div>
@@ -33,11 +31,11 @@
         <section class="hero | padding-block-900 text-centre-sm-only">
           <div class="container">
             <div class="even-columns">
-              <div class="flow">
-                <h1 class="fs-primary-heading fw-bold" style="padding-top: 0.75em;">
+              <div class="left">
+                <h1 class="fs-primary-heading fw-bold" style="margin-bottom: 3%;">
                   Who am I?
                 </h1>
-                <p>I am a Computer Science student at McMaster,
+                <p style="margin-bottom: 5%;">I am a Computer Science student at McMaster,
                    who wants to pursue a career in math or software engineering. 
                    I enjoy coding in my spare time. My favourite hobby is ultimate frisbee.
                 </p>
@@ -47,8 +45,9 @@
                   </a>
                 </button>
               </div>
-              <div class="hero__image">
-                <img class="mx-auto" src="images/top_graphic.svg" alt="">
+              <div class="hero__image"></div>
+              <div class="top_image">
+                <img  src="images/top_graphic.svg"  alt="">
               </div>
             </div>
           </div>
@@ -57,11 +56,11 @@
         <section class="padding-block-900">
           <div class="container">
             <div class="even-columns">
-              <div class="flow text-center-sm-only" style="--flow-spacer: 1.5em">
+              <div class="flow text-center-sm-only | left" style="--flow-spacer: 1.5em">
                 <h2 class="fs-secondary-heading fw-bold">Work Experiences</h2>
                 <img src="images/work.svg" alt="" style="scale: 0.8;">
               </div>
-              <div>
+              <div class="right">
                 <ul class="numbered-items | flow" role="list" style="padding-top: 5em;">
 
                   <li>
@@ -75,19 +74,20 @@
                   </li>
                   <li>
                     <div class="flow" style="--flow-spacer: 1em">
-                      <h3 class="numbered-items__title | fs-500 fw-bold">Echelon Insurance - Finance Clerk</h3>
+                      <h3 class="numbered-items__title | fs-500 fw-bold">George Brown College - Game Developer</h3>
                       <p class="numbered-items__body" data-width="wide">
-                        I processed claims and payments into the company's system. I also processed
-                        credit card declines and sent faxes to the insurance brokers.
+                        I helped make and refine "Cells at War: VS Type 1 Diabetes", a game that helps children
+                        learn more about what Type 1 Diabetes is, what it does, and how to push through it. More 
+                        information coming soon!
                       </p>
                     </div>
                   </li>
                   <li>
                     <div class="flow" style="--flow-spacer: 1em">
-                      <h3 class="numbered-items__title | fs-500 fw-bold">King's Christian Collegiate - Teaching Assistant</h3>
+                      <h3 class="numbered-items__title | fs-500 fw-bold">Echelon Insurance - Finance Clerk</h3>
                       <p class="numbered-items__body" data-width="wide">
-                        My last co-op position was a teaching assistant position for a drama class
-                        at a high school. I led excercises, graded students, and gave instructions.
+                        I processed claims and payments into the company's system. I also processed
+                        credit card declines and sent faxes to the insurance brokers.
                       </p>
                     </div>
                   </li>
@@ -100,7 +100,7 @@
         <section class="padding-block-900">
           <div class="container">
             <div class="even-columns">
-              <div>
+              <div class="left">
                 <h2 class="fs-secondary-heading fw-bold">My Skills</h2>
                 <ul class="padding-block-700 numbered-items | flow" role="list">
                   <li>
@@ -144,7 +144,7 @@
                 </ul>
               </div>
 
-              <div class="flow text-center-sm-only" style="--flow-spacer: 1.5em">
+              <div class="text-center-sm-only | right" style="--flow-spacer: 1.5em">
                 <img src="images/skills.svg" alt="" style="scale: 0.8;">
               </div>
               
@@ -153,7 +153,7 @@
         </section>
 
         <!--Carousel-->
-        <section class="carousel | padding-block-700  text-center">  
+        <section class="fade-in | carousel | padding-block-700  text-center">  
           <h2 class="fs-secondary-heading fw-bold">See my projects by clicking on the tabs below!</h2>
           <!-- Carousel here -->
           <ul class="slider">
@@ -231,7 +231,7 @@
 
         <section class="cta | padding-block-900 bg-accent-400 text-neutral-100">
           <div class="container">
-            <div class="even-columns vertical-align-center">
+            <div class="even-columns vertical-align-center | fade-in">
               <div>
                 <center><img class="mx-auto" src="images/github.svg" alt=""></center>
               </div>
@@ -256,11 +256,7 @@
       <footer class="primary-footer | padding-block-700 bg-neutral-900 text-neutral-100">
         <div class="container">
           <div class="primary-footer-wrapper">
-            <div class="primary-footer-logo-social">
-              
-    
-              
-            </div>
+            <div class="primary-footer-logo-social"></div>
             <div class="primary-footer-nav">
               <nav class="footer-nav">
                 <ul class="flow" style="--flow-spacer: 1em" aria-label="Footer" role="list">
@@ -282,5 +278,6 @@
 
     </header>
     <script type="module" src="/main.js"></script>
+    <script type ="module" src="/on_scroll_event.js"></script>
   </body>
 </html>

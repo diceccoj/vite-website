@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
   <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js" defer></script>
 </head>
@@ -17,7 +17,7 @@
       <section class="hero | padding-block-700 text-centre-sm-only">
         <div class="container">
           <div>
-            <button class="button">
+            <button class="left | button">
               <a href="/vite-website/" style="text-decoration: none; color: inherit">
                 &larr; Back to Home
               </a>
@@ -25,7 +25,7 @@
         </div>
       </section>
 
-      <section class="hero text-center padding-block-700">
+      <section class="fade-in | text-center padding-block-700">
         <h2 class="fs-secondary-heading fw-bold">Billing System</h2>
       </section>
 
@@ -36,7 +36,7 @@
             <center>
               <div class="even-columns vertical-align-center">
                 <center>
-                <div class="text-center slider-content | padding-block-700" style="max-width: 85%;">
+                <div class="left | text-center slider-content | padding-block-700" style="max-width: 85%;">
                     <h2>
                       This is a billing system for "Jonathan's Cafe" created in C. It takes the inputs of every
                       item in the store bought, calculates the amount of money spent on each products, including
@@ -47,7 +47,10 @@
                 </div>
                 </center>
                 <center>
-                <img src="images/bill.png" alt="" height="200px" width="200px">
+                <img src="images/bill.png" class="right" alt="" height="200px" width="200px">
+
+                <div class="hero__image">
+                </div>
                 </center>
               </div>
               </div>
@@ -55,7 +58,7 @@
           </div>
         </section>
 
-        <section class="hero | padding-block-700 text-centre-sm-only">
+        <section class="fade-in | hero | padding-block-700 text-centre-sm-only">
           <div class="container">
             <div>
               <div class="flow">
@@ -65,8 +68,6 @@
                   </video>
                 </center>
               </div>
-              <div class="hero__image">
-              </div>
             </div>
           </div>
         </section>
@@ -74,7 +75,7 @@
         <section class="hero | padding-block-700 text-centre-sm-only">
           <div align="right" class="container">
             <div>
-              <button class="button">
+              <button class="button | right">
                 <a href="https://github.com/diceccoj/Billing-System" style="text-decoration: none; color: inherit">
                   Source Code on Github &rarr;
                 </a>
@@ -114,6 +115,7 @@
 
 
     </header>
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="../main.js"></script>
+    <script type="module" src="../on_scroll_event.js"></script>
   </body>
 </html>

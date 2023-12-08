@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
   <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js" defer></script>
 </head>
@@ -17,7 +17,7 @@
       <section class="hero | padding-block-700 text-centre-sm-only">
         <div class="container">
           <div>
-            <button class="button">
+            <button class="button | left">
               <a href="/vite-website/" style="text-decoration: none; color: inherit">
                 &larr; Back to Home
               </a>
@@ -25,7 +25,7 @@
         </div>
       </section>
 
-      <section class="hero text-center padding-block-700">
+      <section class="hero text-center padding-block-700 | fade-in">
         <h2 class="fs-secondary-heading fw-bold">Initial</h2>
       </section>
 
@@ -35,7 +35,7 @@
         <section class="hero | padding-block-500 text-centre-sm-only">
           <div class="container | even-columns">
             <center>
-              <div class="text-center slider-content | padding-block-900" style="text-align: left; max-width:85%;">
+              <div class="left | text-center slider-content | padding-block-900" style="text-align: left; max-width:85%;">
                 <h2>
                   This is an ongoing project I call Initial. A browser startpage you can use right now!
                   </br>
@@ -47,7 +47,7 @@
               <div class="hero__image">
               </div>
             </center>
-            <center>
+            <center class="right">
               <img src="images/initial.png" style="scale:50%; transform: translate(0%, -40%);" alt="">
             </center>
           </div>
@@ -55,11 +55,11 @@
 
         <section class="hero | padding-block-500 text-centre-sm-only">
           <div class="container | even-columns">
-          <center>
+          <center class="left">
             <img src="images/1.png" style="scale:90%; transform: translate(0%, -7%);" alt="">
           </center>
             <center>
-              <div class="slider-content | padding-block-900" style="text-align: left; max-width:85%;">
+              <div class="right | slider-content | padding-block-900" style="text-align: left; max-width:85%;">
                 <h2>
                   So far this project features: </br>
                   - A dark and light theme </br>
@@ -73,14 +73,14 @@
         </section>
 
         <section class="hero | padding-block-700 text-centre-sm-only">
-          <div class="container">
+          <div class=" fade-in | container">
             <center>
               <img src="images/2.png" style="scale:80%;" alt="">
             </center>
           </div>
           <div align="right" class="container">
             <div>
-              <button class="button">
+              <button class="button | right">
                 <a href="https://github.com/diceccoj/initial" style="text-decoration: none; color: inherit">
                   Source Code on Github &rarr;
                 </a>
@@ -91,7 +91,7 @@
 
         <section class="cta | padding-block-900 bg-accent-400 text-neutral-100">
           <div class="container">
-            <div class="even-columns vertical-align-center">
+            <div class="even-columns vertical-align-center | fade-in">
               <div>
                 <center>
                     <img src="images/initial.png" style="scale:70%;" alt="">
@@ -140,6 +140,7 @@
         </div>
       </footer>
     </header>
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="../main.js"></script>
+    <script type="module" src="../on_scroll_event.js"></script>
   </body>
 </html>

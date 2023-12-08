@@ -10,8 +10,8 @@
   
   <link rel="stylesheet" href="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.css" />
   <script src="https://unpkg.com/a11y-slider@latest/dist/a11y-slider.js" defer></script>
-  <script type="module" crossorigin src="/vite-website/assets/main.f082cbfa.js"></script>
-  <link rel="stylesheet" href="/vite-website/assets/index.15f866a2.css">
+  <script type="module" crossorigin src="/vite-website/assets/on_scroll_event.78ba3cde.js"></script>
+  <link rel="stylesheet" href="/vite-website/assets/on_scroll_event.1e4d7109.css">
 </head>
   <body>
     <!--header (logo) and top buttons-->
@@ -19,7 +19,7 @@
       <section class="hero | padding-block-700 text-centre-sm-only">
         <div class="container">
           <div>
-            <button class="button">
+            <button class="button | left">
               <a href="/vite-website/" style="text-decoration: none; color: inherit">
                 &larr; Back to Home
               </a>
@@ -27,7 +27,7 @@
         </div>
       </section>
 
-      <section class="hero text-center padding-block-700">
+      <section class="hero text-center padding-block-700 | fade-in">
         <h2 class="fs-secondary-heading fw-bold">Initial</h2>
       </section>
 
@@ -37,7 +37,7 @@
         <section class="hero | padding-block-500 text-centre-sm-only">
           <div class="container | even-columns">
             <center>
-              <div class="text-center slider-content | padding-block-900" style="text-align: left; max-width:85%;">
+              <div class="left | text-center slider-content | padding-block-900" style="text-align: left; max-width:85%;">
                 <h2>
                   This is an ongoing project I call Initial. A browser startpage you can use right now!
                   </br>
@@ -49,7 +49,7 @@
               <div class="hero__image">
               </div>
             </center>
-            <center>
+            <center class="right">
               <img src="/vite-website/assets/initial.d7b68a44.png" style="scale:50%; transform: translate(0%, -40%);" alt="">
             </center>
           </div>
@@ -57,11 +57,11 @@
 
         <section class="hero | padding-block-500 text-centre-sm-only">
           <div class="container | even-columns">
-          <center>
+          <center class="left">
             <img src="/vite-website/assets/1.246872d9.png" style="scale:90%; transform: translate(0%, -7%);" alt="">
           </center>
             <center>
-              <div class="slider-content | padding-block-900" style="text-align: left; max-width:85%;">
+              <div class="right | slider-content | padding-block-900" style="text-align: left; max-width:85%;">
                 <h2>
                   So far this project features: </br>
                   - A dark and light theme </br>
@@ -75,14 +75,14 @@
         </section>
 
         <section class="hero | padding-block-700 text-centre-sm-only">
-          <div class="container">
+          <div class=" fade-in | container">
             <center>
               <img src="/vite-website/assets/2.6879b465.png" style="scale:80%;" alt="">
             </center>
           </div>
           <div align="right" class="container">
             <div>
-              <button class="button">
+              <button class="button | right">
                 <a href="https://github.com/diceccoj/initial" style="text-decoration: none; color: inherit">
                   Source Code on Github &rarr;
                 </a>
@@ -93,7 +93,7 @@
 
         <section class="cta | padding-block-900 bg-accent-400 text-neutral-100">
           <div class="container">
-            <div class="even-columns vertical-align-center">
+            <div class="even-columns vertical-align-center | fade-in">
               <div>
                 <center>
                     <img src="/vite-website/assets/initial.d7b68a44.png" style="scale:70%;" alt="">
@@ -142,6 +142,7 @@
         </div>
       </footer>
     </header>
+    
     
   </body>
 </html>

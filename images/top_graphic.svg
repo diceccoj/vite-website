@@ -1,4 +1,4 @@
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1208 696" width="1208" height="696">
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1037" width="1800" height="1037">
 	<title>top_graphic-svg</title>
 	<defs>
 		<image width="1280" height="720" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABQAAAALQAQMAAAD1s08VAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAACHSURBVHic7cExAQAAAMKg9U9tCU+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgaxN8AAQfAspoAAAAASUVORK5CYII="/>
@@ -8,8 +8,8 @@
 	</defs>
 	<style>
 	</style>
-	<use id="img1" href="#img1" transform="matrix(1,0,0,1,-167,0)"/>
-	<use id="img2" href="#img2" transform="matrix(.911,0,0,.911,4,9)"/>
-	<use id="img3" href="#img3" transform="matrix(1,0,0,1,356,360)"/>
-	<use id="mcmaster" href="#img4" transform="matrix(.572,0,0,.572,518,114)"/>
+	<use id="img1" href="#img1" transform="matrix(1.49,0,0,1.49,-248.841,0)"/>
+	<use id="img2" href="#img2" transform="matrix(1.357,0,0,1.357,5.96,13.409)"/>
+	<use id="img3" href="#img3" transform="matrix(1.49,0,0,1.49,530.464,536.379)"/>
+	<use id="img4" href="#img4" transform="matrix(.852,0,0,.852,771.854,169.853)"/>
 </svg>
