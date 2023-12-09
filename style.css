@@ -741,7 +741,7 @@ input:where([type="text"], [type="email"], ) {
   margin: 0 auto;
   position: absolute;
   justify-content: center;
-  opacity: 1;
+  opacity: 0;
   transform: scale(0.5) translate(-100%, 250%);
   transition: opacity 0.25s;
 }
@@ -751,7 +751,7 @@ input:where([type="text"], [type="email"], ) {
   margin: 0 auto;
   position: absolute;
   justify-content: center;
-  opacity: 1;
+  opacity: 0;
   transform: scale(0.5) translate(-100%, 325%);
   transition: opacity 0.25s;
 }
