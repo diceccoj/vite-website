@@ -435,7 +435,11 @@ input:where([type="text"], [type="email"], ) {
   align-items: center;
   column-gap: var(--size-300);
   grid-template-columns: min-content 1fr;
+  transition: background-color 0.5s;
+  padding: 2%;
+  border-radius: 2vw;
 }
+
 
 .numbered-items__title {
   grid-row: 1 / 2;
@@ -492,6 +496,7 @@ input:where([type="text"], [type="email"], ) {
   gap: var(--size-600);
   list-style: none;
 }
+
 
 .a11y-slider-container {
   margin-block: var(--size-700);
@@ -731,12 +736,66 @@ input:where([type="text"], [type="email"], ) {
 }
 
 
+.language-tray {
+  display: inline-flex;
+  margin: 0 auto;
+  position: absolute;
+  justify-content: center;
+  opacity: 1;
+  transform: scale(0.5) translate(-100%, 250%);
+  transition: opacity 0.25s;
+}
+
+.language-tray-initial {
+  display: inline-flex;
+  margin: 0 auto;
+  position: absolute;
+  justify-content: center;
+  opacity: 1;
+  transform: scale(0.5) translate(-100%, 325%);
+  transition: opacity 0.25s;
+}
+
+.lang {
+  margin: 0 auto;
+}
+
+@media(min-width: 50em) {
+  .language-tray {
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    opacity: 0;
+    top: 21%;
+    left: 65%;
+    transform: scale(0.5);
+    transition: opacity 0.25s;
+  }
+  .language-tray-initial {
+    display: inline-flex;
+    position: absolute;
+    justify-content: center;
+    opacity: 0;
+    top: 21%;
+    left: 65%;
+    transform: scale(0.5);
+    transition: opacity 0.25s;
+  }
+
+  .slider-content:hover .language-tray  { 
+    opacity: 1;
+  }
+  .slider-content:hover .language-tray-initial  { 
+    opacity: 1;
+  }
+}
 
 
 
 
 
 /*Animations*/
+
 @keyframes animFadeFromLeft {
   0% {
     transform: translateX(-10%);
